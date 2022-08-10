@@ -191,7 +191,7 @@
 //1
 //4 * 3 * 2 * Factorial(1)
 
-
+//in real commercial project such commented code is unacceptable
 
 
 
@@ -216,7 +216,7 @@ Console.WriteLine(MinValue(sum2, sum3));
 
 
 int sum = 6;
-
+//the variables names shoud have more sens, sum1, sum2, sum3 - bad naming
 static bool TrySumIfOdd(int sum1, int sum3, out int sum) //sum4
 {
     sum = sum1 + sum3;
@@ -225,4 +225,4 @@ static bool TrySumIfOdd(int sum1, int sum3, out int sum) //sum4
 }
 Console.WriteLine(TrySumIfOdd(sum1, sum2, out sum));
 
-   
+   //checked
